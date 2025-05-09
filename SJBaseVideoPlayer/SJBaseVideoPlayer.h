@@ -54,8 +54,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// \endcode
 ///
 @property (nonatomic, strong, readonly) __kindof UIView *view;
+@property (nonatomic, assign) CGRect originalFrame;
 @property (nonatomic, weak, nullable) id <SJVideoPlayerControlLayerDataSource> controlLayerDataSource;
 @property (nonatomic, weak, nullable) id <SJVideoPlayerControlLayerDelegate> controlLayerDelegate;
+
 @end
 
 
@@ -321,7 +323,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SJBaseVideoPlayer (Life)
 
 /// You should call it when view did appear
-- (void)vc_viewDidAppear; 
+- (void)vc_viewDidAppear;
 /// You should call it when view will disappear
 - (void)vc_viewWillDisappear;
 - (void)vc_viewDidDisappear;
