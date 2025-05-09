@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'SJBaseVideoPlayer'
-  s.version      = '3.7.7.1'
+  s.version      = '3.7.7.2'
   s.summary      = 'video player.'
-  s.description  = 'https://github.com/changsanjiang/SJBaseVideoPlayer/blob/master/README.md'
-  s.homepage     = 'https://github.com/changsanjiang/SJBaseVideoPlayer'
+  s.description  = 'https://github.com/wangpengwuxiao/SJBaseVideoPlayer/blob/master/README.md'
+  s.homepage     = 'https://github.com/wangpengwuxiao/SJBaseVideoPlayer'
   s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author       = { 'SanJiang' => 'changsanjiang@gmail.com' }
   s.platform     = :ios, '12.0'
-  s.source       = { :git => 'https://github.com/changsanjiang/SJBaseVideoPlayer.git', :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/wangpengwuxiao/SJBaseVideoPlayer.git', :tag => "v#{s.version}" }
   s.frameworks  = "UIKit", "AVFoundation"
   s.requires_arc = true
 
